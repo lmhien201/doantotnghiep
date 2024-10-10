@@ -1,0 +1,65 @@
+{
+    "shooter": {
+        "checkpoints": [
+            {
+                "steps": 1256780,
+                "file_path": "results\\runtest7\\shooter\\shooter-1256780.onnx",
+                "reward": 135.42857142857142,
+                "creation_time": 1726652736.0495126,
+                "auxillary_file_paths": [
+                    "results\\runtest7\\shooter\\shooter-1256780.pt"
+                ]
+            },
+            {
+                "steps": 1483560,
+                "file_path": "results\\runtest7\\shooter\\shooter-1483560.onnx",
+                "reward": -1401.3333333333333,
+                "creation_time": 1726655009.4381924,
+                "auxillary_file_paths": [
+                    "results\\runtest7\\shooter\\shooter-1483560.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results\\runtest7\\shooter\\shooter-1499999.onnx",
+                "reward": -1423.6818181818182,
+                "creation_time": 1726655164.485607,
+                "auxillary_file_paths": [
+                    "results\\runtest7\\shooter\\shooter-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1525975,
+                "file_path": "results\\runtest7\\shooter\\shooter-1525975.onnx",
+                "reward": -1633.0,
+                "creation_time": 1726655453.4771967,
+                "auxillary_file_paths": [
+                    "results\\runtest7\\shooter\\shooter-1525975.pt"
+                ]
+            },
+            {
+                "steps": 1546499,
+                "file_path": "results\\runtest7\\shooter\\shooter-1546499.onnx",
+                "reward": null,
+                "creation_time": 1726881778.7006876,
+                "auxillary_file_paths": [
+                    "results\\runtest7\\shooter\\shooter-1546499.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1546499,
+            "file_path": "results\\runtest7\\shooter.onnx",
+            "reward": null,
+            "creation_time": 1726881778.7006876,
+            "auxillary_file_paths": [
+                "results\\runtest7\\shooter\\shooter-1546499.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "shooter": {
+        "checkpoints": [
+            {
+                "steps": 75529,
+                "file_path": "results\\runtest5\\shooter\\shooter-75529.onnx",
+                "reward": -1073.4098360655737,
+                "creation_time": 1726658261.9499974,
+                "auxillary_file_paths": [
+                    "results\\runtest5\\shooter\\shooter-75529.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 75529,
+            "file_path": "results\\runtest5\\shooter.onnx",
+            "reward": -1073.4098360655737,
+            "creation_time": 1726658261.9499974,
+            "auxillary_file_paths": [
+                "results\\runtest5\\shooter\\shooter-75529.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

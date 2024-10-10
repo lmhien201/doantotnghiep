@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1726914953",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Admin\\Downloads\\mlagent 2\\mlagent 2\\venv\\Scripts\\mlagents-learn Assets/hunter1.yaml --time-scale=5 --run-id=runtest14 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1726915014"
+    },
+    "total": 61.309988399996655,
+    "count": 1,
+    "self": 0.026467600000614766,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06267909999587573,
+            "count": 1,
+            "self": 0.06267909999587573
+        },
+        "TrainerController.start_learning": {
+            "total": 61.220841700000165,
+            "count": 1,
+            "self": 0.00013729999773204327,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.22065070000099,
+                    "count": 1,
+                    "self": 61.22065070000099
+                },
+                "TrainerController._save_models": {
+                    "total": 5.370000144466758e-05,
+                    "count": 1,
+                    "self": 5.370000144466758e-05
+                }
+            }
+        }
+    }
+}
